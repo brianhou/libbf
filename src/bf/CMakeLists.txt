@@ -7,6 +7,7 @@ set(libbf_sources
   bloom_filter/bitwise.cc
   bloom_filter/counting.cc
   bloom_filter/stable.cc
+  bloom_filter/scalable.cc
   )
 
 add_library(libbf SHARED ${libbf_sources})
